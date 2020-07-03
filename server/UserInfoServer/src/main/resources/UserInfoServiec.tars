@@ -1,0 +1,8 @@
+module TestApp
+{
+    interface Login 
+	{
+		string login(string username, string password);
+	};
+};
+    
