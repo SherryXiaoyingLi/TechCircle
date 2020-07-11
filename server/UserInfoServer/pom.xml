@@ -49,6 +49,7 @@
 			            <!-- tars file location -->
 			            <tarsFiles>
 				            <tarsFile>${basedir}/src/main/resources/hello.tars</tarsFile>
+                            <tarsFile>${basedir}/src/main/resources/login.tars</tarsFile>
 			            </tarsFiles>
 			            <!-- Source file encoding -->
 			            <tarsFileCharset>UTF-8</tarsFileCharset>
@@ -59,7 +60,7 @@
 			            <!-- Generated source code directory -->
 			            <srcPath>${basedir}/src/main/java</srcPath>
 			            <!-- Generated source code package prefix -->
-			            <packagePrefixName>com.qq.tars.techcircle.server.</packagePrefixName>
+			            <packagePrefixName>com.techcircle.server.</packagePrefixName>
 		            </tars2JavaConfig>
 	            </configuration>
             </plugin>
@@ -80,7 +81,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.qq.tars.techcircle.server.QuickStartApplication</mainClass>
+                    <mainClass>com.techcircle.server.QuickStartApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

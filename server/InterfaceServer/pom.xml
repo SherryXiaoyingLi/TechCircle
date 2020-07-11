@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.tencent.tars</groupId>
+    <groupId>com.tencent.tars</groupId> 
     <artifactId>tars-spring-boot-client</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -90,18 +90,19 @@
 		                <tars2JavaConfig>
 			                <!-- tars file location -->
 			                <tarsFiles>
-				                <tarsFile>${basedir}/src/main/resources/hello.tars</tarsFile>
+				                <tarsFile>${basedir}/src/main/resources/server/hello.tars</tarsFile>
+                                <tarsFile>${basedir}/src/main/resources/server/login.tars</tarsFile>
 			                </tarsFiles>
 			                <!-- Source file encoding -->
 			                <tarsFileCharset>UTF-8</tarsFileCharset>
 			                <!-- Generate server code -->
-			                <servant>false</servant>
+			                <servant>true</servant>
 			                <!-- Generated source code encoding -->
 			                <charset>UTF-8</charset>
 			                <!-- Generated source code directory -->
 			                <srcPath>${basedir}/src/main/java</srcPath>
 			                <!-- Generated source code package prefix -->
-			                <packagePrefixName>com.tencent.tars.client.</packagePrefixName>
+			                <packagePrefixName>com.techcircle.client.</packagePrefixName>
 		                </tars2JavaConfig>
 	                </configuration>
                 </plugin>
@@ -124,7 +125,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.tencent.tars.App</mainClass>
+                    <mainClass>com.techCirlce.client.App</mainClass>
                 </configuration>
                 <executions>
                     <execution>

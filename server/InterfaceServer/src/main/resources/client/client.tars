@@ -1,0 +1,7 @@
+module App
+{
+	interface Client
+	{
+	    string rpcHello(int no, string name);
+	};
+};
