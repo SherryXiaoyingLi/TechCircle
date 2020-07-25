@@ -1,7 +1,0 @@
-module App
-{
-	interface LoginClient
-	{
-	    string rpcLogin(string username, string password);
-	};
-};

@@ -1,8 +1,0 @@
-module App
-{
-	interface Hello
-	{
-	    string hello(int no, string name);
-	};
-
-};

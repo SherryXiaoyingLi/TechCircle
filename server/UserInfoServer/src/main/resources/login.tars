@@ -1,8 +1,0 @@
-module App
-{
-    interface Login 
-	{
-		string login(string username, string password);
-	};
-};
-    

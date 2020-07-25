@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.qq.tars.quickstart.server.testapp","l":"HelloServant"},{"p":"com.qq.tars.quickstart.server.testapp.impl","l":"HelloServantImpl"},{"p":"com.qq.tars.quickstart.server","l":"QuickStartApplication"}]
