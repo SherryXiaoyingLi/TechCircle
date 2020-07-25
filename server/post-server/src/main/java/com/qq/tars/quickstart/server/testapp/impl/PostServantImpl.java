@@ -23,11 +23,6 @@ import com.qq.tars.spring.annotation.TarsServant;
 public class PostServantImpl implements PostServant {
 
     @Override
-    public String hello(int no, String name) {
-        return String.format("hello no=%s, name=%s, time=%s", no, name, System.currentTimeMillis());
-    }
-
-    @Override
     // check if user exists, if exists return user json object, else return error
     public String getAuthorPost(int author) {
         // todo: create new data service obj and call its method

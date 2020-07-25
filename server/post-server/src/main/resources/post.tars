@@ -18,7 +18,6 @@ module TestApp
 {
 	interface Post
 	{
-	    string hello(int no, string name);
 		string getAuthorPost(int author);
 	};
 };

@@ -24,7 +24,6 @@ import com.qq.tars.protocol.annotation.Servant;
 
 @Servant
 public interface PostServant {
-
-	public String hello(int no, String name);
+	
 	public String getAuthorPost(int author);
 }

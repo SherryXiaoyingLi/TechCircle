@@ -94,7 +94,7 @@
                         <tars2JavaConfig>
                             <!-- tars文件位置 -->
                             <tarsFiles>
-                                <tarsFile>${basedir}/src/main/resources/client.tars</tarsFile>
+                                <tarsFile>${basedir}/src/main/resources/clientPost.tars</tarsFile>
                             </tarsFiles>
                             <!-- 源文件编码 -->
                             <tarsFileCharset>UTF-8</tarsFileCharset>

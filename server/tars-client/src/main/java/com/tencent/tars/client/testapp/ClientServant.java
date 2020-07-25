@@ -15,4 +15,5 @@ public interface ClientServant {
 	 String rpcHello(int no, String name);
 
 	 String rpcLogin(String username, String password);
+
 }

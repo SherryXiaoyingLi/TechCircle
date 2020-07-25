@@ -15,7 +15,7 @@ import com.tencent.tars.client.testapp.util.Util;
 public class ClientServantImpl implements ClientServant {
     @TarsClient("TestServer.HelloServer.HelloObj")
     HelloPrx helloPrx;
-    
+
     String res = "";
 
     @Override
@@ -90,4 +90,5 @@ public class ClientServantImpl implements ClientServant {
         });
         return res;
     }
+ 
 }

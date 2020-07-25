@@ -1,0 +1,7 @@
+module TestApp
+{
+	interface ClientPost
+	{
+		string rpcGetAuthorPost(int author);
+	};
+};
